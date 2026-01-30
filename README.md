@@ -1,6 +1,6 @@
 # PyTorch Primitives from Scratch 🛠️
 
-This repository contains manual implementations of core Deep Learning layers (`BatchNorm`, `Dropout`) using PyTorch.
+This repository contains implementations of core Deep Learning layers (at this moment: `BatchNorm`, `Dropout`) using PyTorch.
 
 The primary goal of this project is **educational**: to deconstruct the "black box" of standard libraries and gain a better understanding of the underlying mathematics, tensor operations, and PyTorch's autograd engine.
 
