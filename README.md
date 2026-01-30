@@ -20,3 +20,6 @@ Implementation of **Inverted Dropout**.
 **Key Concepts:**
 * **Scaling:** Scaling the active neurons by `1/(1-p)` during training. This ensures that the expected value of the activation remains constant, removing the need to scale weights during inference.
 * **Masking:** efficient generation of the binary mask using Bernoulli distribution.
+
+## 🚀 Future Plans
+I plan to regularly update this repository with new implementations as I explore more advanced Deep Learning concepts. My goal is to gradually build a comprehensive collection of neural network primitives built from scratch.
