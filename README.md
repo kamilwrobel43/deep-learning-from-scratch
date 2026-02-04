@@ -27,9 +27,5 @@ Implementation of the `torch.nn.LayerNorm` as described in official docs and [La
 **Details**
 * Single module that can handle different shapes
 
-**Key Concepts:**
-* **Scaling:** Applying the `1/(1-p)` scaling factor during training time. This keeps the expected activation value constant, removing the need to modify weights during the inference phase.
-* **Masking:** Generating binary masks using the Bernoulli distribution to zero out random activations.
-
 ## 🚀 Future Plans
 I plan to regularly update this repository with new implementations as I explore more advanced Deep Learning concepts. My goal is to gradually build a comprehensive collection of neural network primitives built from scratch.
