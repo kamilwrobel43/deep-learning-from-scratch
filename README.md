@@ -21,7 +21,7 @@ Implementation of the **Inverted Dropout** technique.
 * **Scaling:** Applying the `1/(1-p)` scaling factor during training time. This keeps the expected activation value constant, removing the need to modify weights during the inference phase.
 * **Masking:** Generating binary masks using the Bernoulli distribution to zero out random activations.
 
-### 2. Layer Normalization (`MyLayerNorm`)
+### 3. Layer Normalization (`MyLayerNorm`)
 Implementation of the `torch.nn.LayerNorm` as described in official docs and [Layer Normalization Paper](https://arxiv.org/abs/1607.06450)
 
 **Details**
